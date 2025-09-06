@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins";
+}
+
+header {
+    text-align: center;
+}
+
+.select-todo-profile {
+    display: flex;
+    justify-content: space-around;
+}
+
+.select-todo-profile .personal {
+    border-bottom: 3px solid orange;
+}
+
+.category {
+    width: 50%;
+}
+
+.addbar {
+    text-align: center;
+}
+
+.addbar input {
+    background-color: #F1ECE6;
+    border-radius: 50px 0 0 50px;
+    border-color: rgba(0, 0, 0, 0);
+    width: 50%;
+    height: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 0;
+}
+
+.addbar button {
+    border-radius: 0 50px 50px 0;
+    background-color: #76B7CD;
+    border-color: rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 50px;
+    margin-left: 0;
+}
+
+.entry {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-frame-container {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+.todo-frame {
+    width: 50%;
+    background-color: #F1ECE6;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.done {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: line-through;
+}
