@@ -2,7 +2,6 @@
 
 body {
     font-family: "Poppins";
-    color: var(--tg-theme-text-color);
     background-color: var(--tg-theme-bg-color);
 }
 
@@ -13,6 +12,7 @@ header {
 .select-todo-profile {
     display: flex;
     justify-content: space-around;
+    color: var(--tg-theme-text-color);
 }
 
 .select-todo-profile .personal {
