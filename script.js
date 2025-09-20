@@ -1,3 +1,3 @@
 const tg = window.Telegram.WebApp
 
-print(tg.ColorScheme)
+console.log(tg.ColorScheme)
