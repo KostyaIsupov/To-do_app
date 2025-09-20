@@ -74,7 +74,7 @@ header {
     text-decoration: line-through;
 }
 
-img {
+.entry img {
     width: 15px;
     height: 15px;
 }
