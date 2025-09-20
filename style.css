@@ -47,6 +47,11 @@ header {
     margin-left: 0;
 }
 
+.dark .addbar button {
+    background-color: orange;
+    color:white;
+}
+
 .entry {
     display: flex;
     justify-content: space-between;
