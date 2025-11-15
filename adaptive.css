@@ -1,0 +1,8 @@
+@media (max-width: 480px) {
+    .todo-frame {
+        width: 90%;
+    }
+    html {
+        font-size: 12px;
+    }
+}

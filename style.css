@@ -2,6 +2,7 @@
 
 body {
     font-family: "Poppins";
+    background-color: var(--tg-theme-bg-color);
 }
 
 header {
@@ -11,6 +12,7 @@ header {
 .select-todo-profile {
     display: flex;
     justify-content: space-around;
+    color: var(--tg-theme-text-color);
 }
 
 .select-todo-profile .personal {
@@ -45,6 +47,11 @@ header {
     margin-left: 0;
 }
 
+.dark .addbar button {
+    background-color: orange;
+    color:white;
+}
+
 .entry {
     display: flex;
     justify-content: space-between;
@@ -53,7 +60,6 @@ header {
 .todo-frame-container {
     display: flex;
     justify-content: center;
-    height: 50%;
 }
 
 .todo-frame {
@@ -66,4 +72,9 @@ header {
 .done {
     color: rgba(0, 0, 0, 0.5);
     text-decoration: line-through;
+}
+
+.entry img {
+    width: 15px;
+    height: 15px;
 }
