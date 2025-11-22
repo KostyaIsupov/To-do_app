@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docto-doument</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/adaptive.css') }}">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <header>
+        <div></div>
+        <img src="{{ url_for('static', filename='img/logo.png') }}"> 
+        <div class="select-todo-profile">
+            <div class="personal category"><p>Personal</p></div>
+            <div class="professional category"><p>Professional</p></div>
+        </div>
+    </header>
+    <main>
+        <div class="addbar">
+            <input placeholder="What do you need to do?"><button>ADD</button>
+        </div>
+        <div class="todo-frame-container">
+            <div class="todo-frame">
+                <div class="entry">
+                    <img class="done-img" src="{{ url_for('static', filename='img/done.svg') }}">
+                    <img class="todo-img" src="{{ url_for('static', filename='img/todo.svg') }}">
+                    <p class="task-text">Personal Work No.1</p>
+                    <img src="{{ url_for('static', filename='img/bin.svg') }}">
+                </div>
+                <div class="entry done">
+                    <img class="done-img" src="{{ url_for('static', filename='img/done.svg') }}">
+                    <img class="todo-img" src="{{ url_for('static', filename='img/todo.svg') }}">
+                    <p class="task-text">Personal Work No.2</p>
+                    <img src="{{ url_for('static', filename='img/bin.svg') }}">
+                </div>
+                <div class="entry">
+                    <img class="done-img" src="{{ url_for('static', filename='img/done.svg') }}">
+                    <img class="todo-img" src="{{ url_for('static', filename='img/todo.svg') }}">
+                    <p class="task-text">Personal Work No.3</p>
+                    <img src="{{ url_for('static', filename='img/bin.svg') }}">
+                </div>
+                <div class="entry done">
+                    <img class="done-img" src="{{ url_for('static', filename='img/done.svg') }}">
+                    <img class="todo-img" src="{{ url_for('static', filename='img/todo.svg') }}">
+                    <p class="task-text">Personal Work No.4</p>
+                    <img src="{{ url_for('static', filename='img/bin.svg') }}">
+                </div>
+                <div class="entry">
+                    <img class="done-img" src="{{ url_for('static', filename='img/done.svg') }}">
+                    <img class="todo-img" src="{{ url_for('static', filename='img/todo.svg') }}">
+                    <p class="task-text">Personal Work No.5</p>
+                    <img src="{{ url_for('static', filename='img/bin.svg') }}">
+                </div> 
+            </div>
+        </div>
+    </main>
+</body>
+</html>

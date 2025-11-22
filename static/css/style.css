@@ -55,6 +55,7 @@ header {
 .entry {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .todo-frame-container {
@@ -77,4 +78,20 @@ header {
 .entry img {
     width: 15px;
     height: 15px;
+}
+
+.entry .done-img {
+    display: none;
+}
+
+.entry .todo-img {
+    display: block;
+}
+
+.done .done-img {
+    display: block;
+}
+
+.done .todo-img {
+    display: none;
 }
